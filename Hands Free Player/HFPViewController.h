@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@import AVFoundation;
 
-@interface HFPViewController : UIViewController
+@interface HFPViewController : UIViewController <AVCaptureVideoDataOutputSampleBufferDelegate>
 
 @end
